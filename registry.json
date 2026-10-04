@@ -4,13 +4,19 @@
     {
       "id": "antigravity-priority",
       "name": "Antigravity Smart Priority",
-      "description": "Dual-window quota pacing and priority ordering for Google Antigravity credentials. Fork of ygq-future/antigravity-priority v1.2.17 (source-reviewed), English UI by default.",
+      "description": "Dual-window quota pacing and priority ordering for Google Antigravity credentials. Fork of ygq-future/antigravity-priority v1.2.17 (source-reviewed): English-only UI in the key-model-access style, reuses the CPAMC session instead of asking for the Management Key.",
       "author": "ygq-future (fork: trancong12102)",
-      "version": "1.2.17-en",
+      "version": "1.2.17-en.1",
       "repository": "https://github.com/trancong12102/antigravity-priority",
       "homepage": "https://github.com/trancong12102/antigravity-priority",
       "license": "MIT",
-      "tags": ["Scheduler", "Priority", "Quota", "Antigravity", "Management"]
+      "tags": [
+        "Scheduler",
+        "Priority",
+        "Quota",
+        "Antigravity",
+        "Management"
+      ]
     },
     {
       "id": "key-model-access",
@@ -21,7 +27,11 @@
       "repository": "https://github.com/trancong12102/key-model-access",
       "homepage": "https://github.com/trancong12102/key-model-access",
       "license": "MIT",
-      "tags": ["Management", "Auth", "Security"]
+      "tags": [
+        "Management",
+        "Auth",
+        "Security"
+      ]
     }
   ]
 }
